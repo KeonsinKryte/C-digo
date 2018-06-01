@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#fff">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/fondosala">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp">
+
+                <Button
+
+                    android:layout_width="40dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="5dp"
+                    android:background="@drawable/cuadrado"
+                    android:text=" "
+                    android:id="@+id/formulario_Hamburguesa1" />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:text=" "
+                    android:layout_marginTop="3dp"
+                    android:layout_height="5dp"
+                    android:background="@drawable/cuadrado"
+
+                    android:id="@+id/formulario_Hamburguesa2"/>
+
+                <Button
+                    android:layout_width="40dp"
+                    android:text=" "
+                    android:layout_marginTop="3dp"
+                    android:layout_height="5dp"
+                    android:background="@drawable/cuadrado"
+                    android:id="@+id/formulario_hamburguesa3"
+
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/buscar"
+                android:layout_marginTop="10dp"
+                android:id="@+id/formulario_buscar"
+                android:layout_marginLeft="270dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="bottom"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:src="@drawable/logo1"
+
+                        android:layout_marginBottom="3dp"/>
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/logo2"
+                        android:elevation="10dp"
+                        android:background="@drawable/file_circular_temporal"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/titulo_formulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="Reservar"
+                        android:textColor="#000"
+                        android:textSize="25dp" />
+
+                    <TextView
+
+                        android:id="@+id/formulario_infoSala"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-5dp"
+                        android:text="Modo de la sala: individual "
+                        android:layout_marginRight="10dp"
+                        android:textAlignment="textEnd"
+                        android:textColor="#d6d6d6"
+                        android:textSize="17dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="Hora de llegada"
+                        android:id="@+id/horallegada"
+                        android:textColor="#000"
+                        android:textSize="17dp" />
+
+                    <EditText
+
+                        android:id="@+id/ed_horallegada"
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:textSize="8pt"
+                        android:hint="Hora de llegada"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:paddingStart="15dp"
+                        android:background="@drawable/edit_text_estilo"
+                        android:elevation="8dp"
+                        android:inputType="time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+
+                        android:id="@+id/horasalida"
+                        android:layout_marginTop="10dp"
+                        android:text="Hora de salida"
+                        android:textColor="#000"
+                        android:textSize="17dp" />
+
+                    <EditText
+
+                        android:id="@+id/ed_horasalida"
+                        android:hint="Hora de salida"
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:paddingStart="15dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edit_text_estilo"
+                        android:elevation="8dp"
+                        android:inputType="time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Necesitas computador"
+                        android:id="@+id/necesitacomputador"
+                        android:textColor="#000"
+                        android:textSize="17dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/check_si"
+                            android:text="Si" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/check_no"
+                            android:text="No" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/software"
+                        android:text="Software"
+                        android:textColor="#000"
+                        android:textSize="17dp" />
+
+                    <EditText
+
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:paddingStart="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="Software a usar"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/ed_software"
+                        android:background="@drawable/edit_text_estilo"
+                        android:elevation="8dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:text="Reservar"
+
+                    android:background="@drawable/boton_gradiente"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:id="@+id/botonReservar"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="120dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+    </ScrollView>
+
+
+

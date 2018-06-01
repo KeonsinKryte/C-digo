@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff">
+
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="610dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="-63px"
+            android:src="@drawable/disimule"
+            />
+
+
+    <LinearLayout android:layout_width="290dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+       android:background="#ededed"
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/usuario"
+            android:layout_marginTop="20dp"
+            android:elevation="10dp"
+            android:background="@drawable/file_circular_temporal"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:id="@+id/Menu_usuario"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Puntuacion: 200pt"
+            android:textColor="#000"
+            android:id="@+id/menu_puntuacion"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+           />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="80px"
+
+            android:layout_height="wrap_content"
+            android:text="Inicio"
+            android:paddingLeft="80dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/botones_menu"
+            android:id="@+id/menu_inicio"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="30px"
+
+            android:layout_height="wrap_content"
+            android:text="historial"
+            android:paddingLeft="80dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/botones_menu"
+            android:id="@+id/menu_historial"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="30px"
+            android:layout_height="wrap_content"
+            android:text="Compañeros"
+            android:paddingLeft="80dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/botones_menu"
+            android:id="@+id/menu_companeros"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="30px"
+
+            android:layout_height="wrap_content"
+            android:text="Multas"
+            android:paddingLeft="80dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/botones_menu"
+            android:id="@+id/menu_multas"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="30px"
+
+            android:layout_height="wrap_content"
+            android:text="Soporte"
+            android:paddingLeft="80dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/botones_menu"
+            android:id="@+id/menu_soporte"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="30px"
+            android:layout_height="wrap_content"
+            android:text="Reglamento"
+            android:paddingLeft="80dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/botones_menu"
+            android:id="@+id/menu_reglamento"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="30px"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:paddingLeft="80dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/botones_menu"
+            android:id="@+id/menu_salir"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

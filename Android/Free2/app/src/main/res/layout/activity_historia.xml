@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/fondosala">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp">
+
+            <Button
+
+                android:layout_width="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="5dp"
+                android:background="@drawable/cuadrado"
+                android:text=" "
+                android:id="@+id/historial_Hamburguesa1" />
+
+            <Button
+                android:layout_width="40dp"
+                android:text=" "
+                android:layout_marginTop="3dp"
+                android:layout_height="5dp"
+                android:background="@drawable/cuadrado"
+
+                android:id="@+id/historial_Hamburguesa2"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:text=" "
+                android:layout_marginTop="3dp"
+                android:layout_height="5dp"
+                android:background="@drawable/cuadrado"
+                android:id="@+id/historial_hamburguesa3"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/buscar"
+            android:layout_marginTop="10dp"
+            android:id="@+id/historial_buscar"
+            android:layout_marginLeft="270dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:src="@drawable/logo1"
+
+                    android:layout_marginBottom="3dp"/>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo2"
+                    android:elevation="10dp"
+                    android:background="@drawable/file_circular_temporal"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:id="@+id/historial_titulo"
+            android:text="Historial de sesiones"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#000"/>
+
+        <ListView
+            android:id="@+id/lv_historial"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp">
+
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "1089907129314",
+    "firebase_url": "https://free-b198f.firebaseio.com",
+    "project_id": "free-b198f",
+    "storage_bucket": "free-b198f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089907129314:android:ba224b5c25503bfa",
+        "android_client_info": {
+          "package_name": "com.keonsinkryte.ecosistemas.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089907129314-3gnj9pt4o806vbqvb331jkhdklu0nccm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.keonsinkryte.ecosistemas.free",
+            "certificate_hash": "9268c19412fa6b658e3f7ff0703799b951213341"
+          }
+        },
+        {
+          "client_id": "1089907129314-n3t7uoomugb7n46mkp61a973asa0e2n6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1089907129314-n3t7uoomugb7n46mkp61a973asa0e2n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL8htRCGxXjigXyAVHxt1XSebShXYsqOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089907129314-n3t7uoomugb7n46mkp61a973asa0e2n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089907129314:android:50923c9bd090b5aa",
+        "android_client_info": {
+          "package_name": "ecosistemas.icesi.dmi.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089907129314-06i3hgd0353cij5t1nm93sjhor8h3bto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ecosistemas.icesi.dmi.free",
+            "certificate_hash": "b173d0e0a9ae537e380ff8194356cc0c0709cf52"
+          }
+        },
+        {
+          "client_id": "1089907129314-n3t7uoomugb7n46mkp61a973asa0e2n6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1089907129314-n3t7uoomugb7n46mkp61a973asa0e2n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL8htRCGxXjigXyAVHxt1XSebShXYsqOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089907129314-n3t7uoomugb7n46mkp61a973asa0e2n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
