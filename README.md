@@ -6,8 +6,8 @@ En este GitHub existen tres carpetas en las cuales se divide el código de la si
  
 Aplicación Android:
   Dentro de este código se encuentra:
-    - Conexión a Firebase - Database
-    - Conexión a Firebase - Autenticación 
+        - Conexión a Firebase - Database
+        - Conexión a Firebase - Autenticación 
     
 Aplicación Java Eclipse:
   Dentro de este código se encuentra:
@@ -24,3 +24,4 @@ Aplicación Arduino:
       - Sensor de presencia
     - Se encarga de realizar la comunicació serial de los datos crudos provenientes de los sensores.
     - Recepción de métodos de procedimiento y ejecución de actuadores como los LED's.
+        
