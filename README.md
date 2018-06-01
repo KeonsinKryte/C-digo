@@ -1,8 +1,8 @@
 # Free Ecosistemas
 En este GitHub existen tres carpetas en las cuales se divide el código de la siguie.nte manera:
- ■ Código apliación Android.
- ■ Código Java en Eclipse que data del servidor que comunica el serial al Firebase.
- ■ Código Arduino, código que controla la comunicación serial entre los sensores y el código java.
+ - Código apliación Android.
+ - Código Java en Eclipse que data del servidor que comunica el serial al Firebase.
+ - Código Arduino, código que controla la comunicación serial entre los sensores y el código java.
  
 Aplicación Android:
   Dentro de este código se encuentra:
